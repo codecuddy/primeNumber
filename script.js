@@ -35,8 +35,8 @@ futurePrimeNumber.innerHTML = primeNumbersArray[1];
 function nextPrimeClick() {
   if (myIndex < primeNumbersArray.length) {
      currentPrimeNumber.innerHTML = primeNumbersArray[myIndex];
-     previousPrimeNumber.innerHTML = primeNumbersArray[myIndex - 1];
-     futurePrimeNumber.innerHTML = primeNumbersArray[myIndex + 1];
+     //previousPrimeNumber.innerHTML = primeNumbersArray[myIndex - 1];
+     //futurePrimeNumber.innerHTML = primeNumbersArray[myIndex + 1];
      myIndex++;
   }
   else {

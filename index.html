@@ -9,25 +9,25 @@
     <body>
 <!-- Goal: Have the program find prime numbers in order
     until the user chooses to stop asking for the next one. -->
+     
+     <div class="jumbotron">
+        <h1 id="title">First 1000 Prime Numbers</h1>
+        <div class="numberBox">
+    <!--        <h3 class="showNumber">Future Prime Number: </br><span id="futurePrimeNumber"></span> </h3>  -->
+            <h3 class="showNumber">Current Prime Number:</br> <span id="currentPrimeNumber"></span> </h3>
+    <!--        <h3 class="showNumber">Previous Prime Number: </br><span id="previousPrimeNumber"></span> </h3> -->
+        </div>
+        </br>
+        <div id="nextPrimeButtonDiv">
+            <button id="nextPrime" onclick="nextPrimeClick();">Next Prime</button> 
+        </div>
         
-    <h1 id="title">First 1000 Prime Numbers</h1>
-     
-     
-    <div class="numberBox">
-        <h3 class="showNumber">Future Prime Number: <span id="futurePrimeNumber"></span> </h3>
-        <h3 class="showNumber">Current Prime Number:</br> <span id="currentPrimeNumber"></span> </h3>
-        <h3 class="showNumber">Previous Prime Number: <span id="previousPrimeNumber"></span> </h3>
+        </br><hr>
+        <div class="footer">
+            <p>&#169 <a href="https://github.com/codecuddy">Charlie Cuddy</a></p>
+        </div>
+        
+        <script type="text/javascript" src="script.js"></script>
     </div>
-    </br>
-    <div id="nextPrimeButtonDiv">
-        <button id="nextPrime" onclick="nextPrimeClick();">Next Prime</button> 
-    </div>
-    
-    </br><hr>
-    <div class="footer">
-        <p>&#169 <a href="https://github.com/codecuddy">Charlie Cuddy</a></p>
-    </div>
-    
-    <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
